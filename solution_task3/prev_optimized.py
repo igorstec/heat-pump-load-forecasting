@@ -20,7 +20,7 @@ from sklearn.model_selection import KFold
 import os
 import gc
 
-DATA_PATH = r"C:\Users\macie\Desktop\EnsembleAI2026-starter-kit-main\EnsembleAI2026-starter-kit-main\data3.csv"
+DATA_PATH = "data/out/data3.csv"
 OUT_PATH = "submission_optimized.csv"
 
 FORECAST_MONTHS = [5, 6, 7, 8, 9, 10]
